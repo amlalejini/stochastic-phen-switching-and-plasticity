@@ -1,5 +1,17 @@
 {
   "organism_source_dir": "/home/parallels/Desktop/scratch/mut-landscape/source",
   "mutant_dest_dir": "/home/parallels/Desktop/scratch/mut-landscape/dest",
-  "instruction_list": "/home/parallels/devo_ws/stochastic-phen-switching-and-plasticity/scripts/param/inst_list.cfg"
+  "landscape_analysis_dir": "/home/parallels/Desktop/scratch/mut-landscape/landscape_analysis",
+  "landscape_characterization_dest_dir": "/home/parallels/Desktop/scratch/mut-landscape/landscape_characterization",
+  "instruction_list": "/home/parallels/devo_ws/stochastic-phen-switching-and-plasticity/scripts/param/inst_list.cfg",
+  "mutant_characterization": {
+    "environments": ["nand+not-", "nand-not+"],
+    "tasks": ["Nand", "Not"],
+    "phenotype_encoding": [
+      {"env": "nand+not-", "task": "Nand"},
+      {"env": "nand+not-", "task": "Not"},
+      {"env": "nand-not+", "task": "Nand"},
+      {"env": "nand-not+", "task": "Not"}
+    ]
+  }
 }
