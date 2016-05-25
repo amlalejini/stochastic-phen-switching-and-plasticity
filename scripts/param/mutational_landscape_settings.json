@@ -1,0 +1,5 @@
+{
+  "organism_source_dir": "/home/parallels/Desktop/scratch/mut-landscape/source",
+  "mutant_dest_dir": "/home/parallels/Desktop/scratch/mut-landscape/dest",
+  "instruction_list": "/home/parallels/devo_ws/stochastic-phen-switching-and-plasticity/scripts/param/inst_list.cfg"
+}
